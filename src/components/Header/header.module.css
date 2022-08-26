@@ -1,0 +1,55 @@
+.Header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 70px;
+}
+.logo > img {
+  width: 70px;
+}
+
+.container {
+  /* padding-top: 20px; */
+  /* width: 1360px; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.HeaderNavElements {
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.HeaderNavElements > a {
+  text-decoration: none;
+  /* color: #1d1d1d; */
+
+  padding: 10px 5px;
+  border-radius: 10px 5px;
+}
+
+.HeaderRegBtn {
+  border: 1px solid #170d7f;
+  background-color: #170d7f;
+  color: white;
+  transition: 0.2s;
+}
+
+.HeaderAuthBtn {
+  color: #1d1d1d;
+}
+
+.HeaderRegBtn:hover {
+  transform: translateY(-2px);
+  transition: 0.2s;
+}
+
+.HeaderAuthBtn:hover {
+  text-decoration: underline;
+  color: #170d7f;
+  transition: 0.3s;
+}

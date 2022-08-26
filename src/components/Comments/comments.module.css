@@ -1,0 +1,26 @@
+.comment {
+  border-bottom: 1px solid black;
+  margin-top: 20px;
+}
+
+.commentAuthor {
+  font-size: 14px;
+}
+
+.commentDescr {
+  border: 1px solid rgba(64, 63, 63, 0.2);
+  padding: 5px 5px 5px 5px;
+  height: 45px;
+}
+.comments {
+  width: 100%;
+  text-align: end;
+  border: none;
+  background: none;
+}
+
+.comments:hover {
+  cursor: pointer;
+  color: #170d7f;
+  text-decoration: underline;
+}
